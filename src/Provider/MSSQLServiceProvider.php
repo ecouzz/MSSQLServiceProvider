@@ -53,7 +53,7 @@ class MSSQLServiceProvider implements ServiceProviderInterface
             $dbs = new Application();
             foreach ($app['dbs.options'] as $name => $options) {
                 $dbs[$name] = function ($dbs) use ($options) {
-                    return new MSSQLConnector($options['host'], $options['dbname'], $options['user'], $options['password'], $options['driver'], $options['driver']);
+                    return new MSSQLConnector($options['host'], $options['dbname'], $options['user'], $options['password'], $options['driver'], $options['charset']);
                 };
             }
             return $dbs;
