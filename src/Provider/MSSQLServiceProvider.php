@@ -26,7 +26,7 @@ class MSSQLServiceProvider implements ServiceProviderInterface
             'port' => '1433',
             'user' => 'root',
             'password' => null,
-            'charset' => 'UTF-8'
+            'charset' => null // 'UTF-8'
         );
 
         $app['dbs.options.initializer'] = $app->protect(function () use ($app) {
