@@ -14,7 +14,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "silex/silex": "~1.1",
+    "silex/silex": "~2",
     "symfony/options-resolver": "~2.3",
     "lucasmilin/mssql-abstract-layer": "0.1.x-dev"
 
