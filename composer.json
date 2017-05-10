@@ -1,6 +1,6 @@
 {
-  "name": "lucasmilin/mssql-service-provider",
-  "description": "a MSSQL service provider for silex",
+  "name": "lucasmilin/mihsto/mssql-service-provider",
+  "description": "a MSSQL service provider for silex2",
   "keywords": [
     "silex", "database", "mssql", "service provider"
   ],
